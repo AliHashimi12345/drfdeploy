@@ -1,1 +1,1 @@
-web: waitress-serve --port=8000 core.wsgi:application
+web: gunicorn EcomerceApi.wsgi
