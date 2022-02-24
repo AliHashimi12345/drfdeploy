@@ -1,1 +1,1 @@
-web: gunicorn EcomerceApi.wsgi
+web: gunicorn EcomerceApi.wsgi:application
