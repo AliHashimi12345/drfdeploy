@@ -1,1 +1,1 @@
-web: gunicorn EcomerceApi.wsgi:application
+web: gunicorn --log-file=- EcomerceApi.wsgi:application
